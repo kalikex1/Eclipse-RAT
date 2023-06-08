@@ -140,8 +140,7 @@ Public Class AuthForm
                     Application.Exit()
                 End If
             Else
-                MessageBox.Show("Do you want access to the tool?", "Eclipse")
-                System.Diagnostics.Process.Start("https://discord.gg/eclipsegg")
+                System.Diagnostics.Process.Start("https://t.me/PegasusOrganization")
                 ContextMenuStrip1.Enabled = False
                 ContextMenuStrip1.Visible = False
                 'Application.Exit()
